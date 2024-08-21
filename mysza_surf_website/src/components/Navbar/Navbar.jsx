@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <div className={`navigation ${menuOpen ? 'open' : ''}`}>
         <ul className="navigation-list">
-          <li><a href="Instructors">Oferta</a></li>
+          <li><a href="Instructors">Instructors</a></li>
           <li><a href="#">Zespół</a></li>
           <li><a href="#">Cennik</a></li>
           <li><a href="#">Kontakt</a></li>

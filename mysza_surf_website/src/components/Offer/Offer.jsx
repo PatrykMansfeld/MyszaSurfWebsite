@@ -5,9 +5,8 @@ function Offer() {
   return (
     <div className="OfferBox">
       {document && (
-        <PrismicImage
+        <PrismicImage className="offer-image"
           field={document.data.cennikimg}
-          imgixParams={{ width: 1000, height:1000 }}
         />
       )}
     </div>
