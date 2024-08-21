@@ -34,6 +34,14 @@
   justify-content: space-around;
 }
 
+.navigation-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 25px;
+}
+
 .social-list {
   margin-left: 10px;
   border-radius: 50px;

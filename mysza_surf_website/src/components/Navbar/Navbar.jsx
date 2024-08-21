@@ -20,16 +20,15 @@ const Navbar = () => {
       </div>
       <div className={`navigation ${menuOpen ? 'open' : ''}`}>
         <ul className="navigation-list">
-          <li><a href="Instructors">Instructors</a></li>
-          <li><a href="#">Zespół</a></li>
-          <li><a href="#">Cennik</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a className="navigation-text" href="#Cennik">Zespół</a></li>
+          <li><a className="navigation-text" href="#">Cennik</a></li>
+          <li><a className="navigation-text" href="#">Kontakt</a></li>
         </ul>
         <div className="socials">
-          <a href="https://www.facebook.com/myszasurf/about" className="social-list">
+          <a href="#instructors" className="social-list">
             <img className="Fb_Icon" src={Fb_Icon} alt="facebook" />
           </a>
-          <a href="https://www.instagram.com/myszasurf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="social-list">
+          <a href="#team" className="social-list">
             <img className="Insta_Icon" src={Instagram_Icon} alt="instagram" />
           </a>
         </div>

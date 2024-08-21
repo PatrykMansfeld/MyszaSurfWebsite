@@ -7,7 +7,7 @@ import {
 function Instructors() {
   const [document] = useSinglePrismicDocument("homepage");
   return (
-    <div className="instructors">
+    <div id="instructors" className="instructors">
       {document && (
         <div className="instructors-box">
           {document.data.instructors.map((instructor, index) => (
