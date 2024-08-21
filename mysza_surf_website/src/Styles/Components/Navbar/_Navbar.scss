@@ -70,3 +70,131 @@
   width: 50px;
   height: 50px;
 }
+
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation.open {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+
+  }
+
+  .navigation.open {
+    display: flex;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navigation.open {
+  display: block;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 25px;
+  text-decoration: none;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.navigation-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation-list a:hover {
+  color: blue;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.social-list {
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust based on your navbar height */
+    left: 0;
+    width: 100%;
+    background-color: white; /* Adjust based on your design */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional for dropdown effect */
+  }
+
+  .navigation.open {
+    display: flex;
+  }
+
+  .navigation-list {
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navigation-list li {
+    margin: 10px 0;
+  }
+
+  .socials {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}

@@ -44,3 +44,49 @@
   font-size: 40px;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+  .instructors {
+    flex-direction: column;
+  }
+
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+  }
+
+  .instructor-1,
+  .instructor-3,
+  .instructor-5,
+  .instructor-7,
+  .instructor-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+  }
+
+  .instructor-2,
+  .instructor-4,
+  .instructor-6,
+  .instructor-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+  }
+
+  .instructor-text {
+    text-align: center;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 20px;
+  }
+
+  .instructor-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
