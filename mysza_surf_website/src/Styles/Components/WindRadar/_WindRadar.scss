@@ -1,4 +1,11 @@
 .windradar {
     width: 100%;
-    height: 600px;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .windradar {
+        height: 50vh;
+        width: 100%;
+    }
 }
