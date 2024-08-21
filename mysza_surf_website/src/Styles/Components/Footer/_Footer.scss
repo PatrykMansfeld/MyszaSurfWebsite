@@ -1,0 +1,18 @@
+.footer-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}

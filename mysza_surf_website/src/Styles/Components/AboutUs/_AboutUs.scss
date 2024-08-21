@@ -1,0 +1,37 @@
+.AboutUsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(138, 123, 246);
+}
+
+.about-us-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.about-us-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    width: 50vw;
+}
+
+.about-us-text {
+    width: 50vw;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SzkoleniaImg {
+    width: 400px;
+    height: 600px;
+    border-radius: 200px;
+    margin: 50px
+}
