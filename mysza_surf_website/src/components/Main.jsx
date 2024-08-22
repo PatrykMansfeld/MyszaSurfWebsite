@@ -1,10 +1,14 @@
 import AboutUs from "./AboutUs/AboutUs";
 import Banner from "./Banner/Banner";
+import Fix from "./Fix/Fix";
 import Footer from "./Footer/Footer";
 import Instructors from "./Instructors/Instructors";
 import Navbar from "./Navbar/Navbar";
 import Offer from "./Offer/Offer";
+import Shop from "./Shop/Shop";
+import Training from "./Training/Training";
 import WindRadar from "./WindRadar/WindRadar";
+import WingFoil from "./WingFoil/WingFoil";
 
 export default function Main() {
   return (
@@ -12,7 +16,11 @@ export default function Main() {
       <Navbar />
       <Banner />
       <AboutUs />
-      <Offer />
+      <Training />
+      {/* <Offer /> */}
+      <Shop />
+      <Fix />
+      <WingFoil />
       <Instructors />
       <WindRadar />
       <Footer />
