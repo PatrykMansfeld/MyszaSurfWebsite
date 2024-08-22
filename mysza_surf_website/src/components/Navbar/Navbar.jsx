@@ -25,10 +25,10 @@ const Navbar = () => {
           <li><a className="navigation-text" href="#">Kontakt</a></li>
         </ul>
         <div className="socials">
-          <a href="#instructors" className="social-list">
+          <a href="https://www.facebook.com/myszasurf/?locale=pl_PL" className="social-list">
             <img className="Fb_Icon" src={Fb_Icon} alt="facebook" />
           </a>
-          <a href="#team" className="social-list">
+          <a href="https://www.instagram.com/myszasurf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="social-list">
             <img className="Insta_Icon" src={Instagram_Icon} alt="instagram" />
           </a>
         </div>

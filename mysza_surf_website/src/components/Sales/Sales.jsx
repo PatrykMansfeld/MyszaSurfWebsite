@@ -4,7 +4,7 @@ import Wynajem from "../../assets/Wynajem.jpg";
 import Doradztwo from "../../assets/Doradztwo.jpg";
 
 
-function Shop() {
+function Sales() {
   const [document] = useSinglePrismicDocument("homepage");
 
   return (
@@ -32,4 +32,4 @@ function Shop() {
   );
 }
 
-export default Shop;
+export default Sales;
