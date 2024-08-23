@@ -1,7 +1,52 @@
-.KontaktFlex {
+.KontaktContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 40vh;
 }
 
+.KontaktFlex {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.KontaktTextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.KontaktTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.KontaktText {
+    font-size: 16px;
+    color: #555;
+}
+
+.KontaktImage {
+    width: 20vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .KontaktContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .KontaktFlex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .KontaktImage {
+        width: 100%;
+        height: auto;
+    }
+}

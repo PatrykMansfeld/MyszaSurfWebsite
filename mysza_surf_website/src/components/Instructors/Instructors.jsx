@@ -21,9 +21,9 @@ function Instructors() {
                 </div>
               </div>
               <div className="instructor-img">
-                <PrismicImage className="profile-image"
+                <PrismicImage
+                  className="profile-image"
                   field={instructor.instructorimg}
-                  // imgixParams={{ width: 800, height: 800 }}
                 />
               </div>
             </div>
