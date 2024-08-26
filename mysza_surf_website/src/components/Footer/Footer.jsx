@@ -21,7 +21,7 @@ function Footer() {
       </div>
 
       <div className="Copyright">
-        <h1 className="footer_title">COPYRIGHT © MYSZA SURF 2022</h1>
+        <h1 className="footer_title">COPYRIGHT © MYSZA SURF 2024</h1>
         <p className="footer_text">
           POWERED BY MOODAGENCY, DEVELOPED BY PATRYK MANSFELD
         </p>
