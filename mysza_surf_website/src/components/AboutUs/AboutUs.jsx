@@ -1,14 +1,14 @@
 import { PrismicRichText, useSinglePrismicDocument } from "@prismicio/react";
-import Szkolenia from "../../assets/Szkolenia.jpg";
+import Logo_pion from "../../assets/Logo_pion.jpg";
 
 function AboutUs() {
   const [document] = useSinglePrismicDocument("homepage");
   //   console.log(document);
 
   return (
-    <div className="AboutUsContainer">
+    <div id="home" className="AboutUsContainer">
       <div className="AboutUsImg">
-        <img className="SzkoleniaImg" src={Szkolenia}/>
+        <img className="SzkoleniaImg" src={Logo_pion}/>
       </div>
       <div className="AboutUsDesc">
         {document && (

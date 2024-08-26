@@ -2,14 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer_box">
+    <div id="contact" className="footer_box">
       <div className="footerList">
         <ul className="footerLinks">
           <li className="footerLinksElement">
-            <a href="#AboutUs">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li className="footerLinksElement">
-            <a href="#offer">About</a>
+            <a href="#cennik">Cennik</a>
           </li>
           <li className="footerLinksElement">
             <a href="#instructors">Products</a>

@@ -14,8 +14,8 @@ function Sales() {
           <img className="SaleSticker" src={Sprzedaz} />
         </div>
         <div className="ShopLeftBottomRow">
-          <img className="SaleSticker" src={Wynajem} />
-          <img className="SaleSticker" src={Doradztwo} />
+          <img className="WynajemSticker" src={Wynajem} />
+          <img className="DoradztowSticker" src={Doradztwo} />
         </div>
       </div>
       {document && (

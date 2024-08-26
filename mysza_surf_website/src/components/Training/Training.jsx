@@ -6,20 +6,20 @@ function Training() {
   //   console.log(document);
 
   return (
-    <div className="AboutUsContainer">
-      <div className="AboutUsImg">
-        <img className="SzkoleniaImg" src={Szkolenia}/>
+    <div className="TrainingContainer">
+      <div>
+        <img className="TrainingImg" src={Szkolenia}/>
       </div>
-      <div className="AboutUsDesc">
+      <div className="TrainingDesc">
         {document && (
-          <div className="about-us-box">
-            <div className="about-us-title">
+          <div className="TrainingBox">
+            <div className="TrainingTitle">
               <PrismicRichText field={document.data.trainingtitle} />
             </div>
-            <div className="about-us-text">
+            <div className="TrainingText">
               <PrismicRichText field={document.data.trainingtext} />
             </div>
-            <div className="about-us-description">
+            <div className="TrainingDescription">
               <PrismicRichText field={document.data.trainingtextsecondary} />
             </div>
           </div>
