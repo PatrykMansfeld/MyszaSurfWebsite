@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  padding: 10px;
 }
 
 .logo {
@@ -18,7 +17,7 @@
   width: 125px;
   height: 75px;
   border-radius: 25px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .navigation-socials {
@@ -103,7 +102,7 @@
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 0px rgba(0, 0, 0, 0.2);
   }
 
   .navigation.open {
